@@ -7,12 +7,12 @@
   "workers": 1,
   "routes": {
     "getConfig": {
-      "path": "/_v/{{appVendor}}/{{appName}}/config",
+      "path": "/_v/pipoohpartnerbr/mkt-pipooh/config",
       "public": true
     },
 
     "getConnectorConfig": {
-      "path": "/_v/{{appVendor}}/{{appName}}/connectorConfig",
+      "path": "/_v/pipoohpartnerbr/mkt-pipooh/connectorConfig",
       "public": true
     }
   }

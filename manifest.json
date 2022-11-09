@@ -1,9 +1,9 @@
 {
-  "name": "{{appName}}",
-  "vendor": "{{appVendor}}",
+  "name": "mkt-pipooh",
+  "vendor": "pipoohpartnerbr",
   "version": "0.0.0",
-  "title": "{{manifestTitle}}",
-  "description": "{{manifestDescription}}",
+  "title": "mkt-pipooh",
+  "description": "mkt-pipooh",
   "mustUpdateAt": "2018-01-04",
   "categories": [],
   "builders": {
@@ -25,7 +25,7 @@
     {
       "name": "outbound-access",
       "attrs": {
-        "host": "{{connectorEndpointHost}}",
+        "host": "https://homologapiv2.com.br/notificao/vtex/teste",
         "path": "*"
       }
     },
